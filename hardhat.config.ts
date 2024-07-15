@@ -4,6 +4,7 @@
 require('dotenv').config()
 import '@nomiclabs/hardhat-ethers'
 import '@nomiclabs/hardhat-waffle'
+import '@nomicfoundation/hardhat-foundry'
 
 module.exports = {
   solidity: {
